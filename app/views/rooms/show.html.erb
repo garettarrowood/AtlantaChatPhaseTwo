@@ -1,0 +1,14 @@
+<h1>AtlantaChat</h1>
+
+<div id="messages">
+  <%= render @messages %>
+</div>
+
+<form>
+  <label>Type message:</label>
+  <br />
+  <input id="message" type="text"></input>
+  <input type="submit"></input>
+</form>
+
+<script>$(document).ready(roomReady);</script>
